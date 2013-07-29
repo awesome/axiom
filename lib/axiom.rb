@@ -167,6 +167,9 @@ require 'axiom/algebra/union'
 require 'axiom/relation/operation/deletion'
 require 'axiom/relation/operation/insertion'
 
+require 'axiom-types'
+require 'axiom/types/relation'
+
 require 'axiom/attribute/comparable'
 
 require 'axiom/attribute'
@@ -180,6 +183,7 @@ require 'axiom/attribute/date_time'
 require 'axiom/attribute/decimal'
 require 'axiom/attribute/float'
 require 'axiom/attribute/integer'
+require 'axiom/attribute/relation'
 require 'axiom/attribute/string'
 require 'axiom/attribute/time'
 
@@ -200,8 +204,6 @@ require 'axiom/function/string/length'
 
 require 'axiom/tuple'
 require 'axiom/version'
-
-require 'axiom-types'
 
 module Axiom
 
