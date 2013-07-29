@@ -172,6 +172,7 @@ require 'axiom/attribute/comparable'
 require 'axiom/attribute'
 require 'axiom/attribute/object'
 require 'axiom/attribute/numeric'
+
 require 'axiom/attribute/boolean'
 require 'axiom/attribute/class'
 require 'axiom/attribute/date'
@@ -179,8 +180,8 @@ require 'axiom/attribute/date_time'
 require 'axiom/attribute/decimal'
 require 'axiom/attribute/float'
 require 'axiom/attribute/integer'
-require 'axiom/attribute/time'
 require 'axiom/attribute/string'
+require 'axiom/attribute/time'
 
 require 'axiom/function/numeric'
 
